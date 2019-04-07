@@ -4,10 +4,8 @@
     </h1>
 </template>
 
-<script>
-export default {
 
-}
+<script src="./AboutPage.ts">
 </script>
 
 <style>
