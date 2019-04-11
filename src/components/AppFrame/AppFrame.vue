@@ -1,7 +1,5 @@
 <template>
   <v-layout
-    wrap
-    style="height: 50px;"
   >
     <v-content>
       <v-layout justify-left>
@@ -16,7 +14,6 @@
       fixed
       dark
       width='200'
-      temporary
     >
       <v-list>
         <v-list-tile avatar tag="div">

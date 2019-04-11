@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <AppFrame></AppFrame>
-    SAHDJKSAHJKDSAKJDBNASK
+    <v-content>
+      <HomePage></HomePage>
+    </v-content>
   </div>
 </template>
 
@@ -15,6 +17,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

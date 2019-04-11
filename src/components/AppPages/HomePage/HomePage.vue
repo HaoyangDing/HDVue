@@ -1,11 +1,11 @@
 <template>
     <h1>
-        This will be the ABOUT page??
+        This will be the HOME page??
     </h1>
 </template>
 
 
-<script src="./AboutPage.ts">
+<script src="./HomePage.ts">
 </script>
 
 <style>
