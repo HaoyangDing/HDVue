@@ -5,12 +5,11 @@ export default {
     return {
       drawer: null,
       items: [
-        { title: 'Home', icon: 'home' },
-        { title: 'About', icon: 'sentiment_very_satisfied' },
-        { title: 'Projects', icon: 'build' },
-        { title: 'Hire Me?', icon: 'whatshot' },
+        { title: 'Home', icon: 'home', link: '/' },
+        { title: 'About', icon: 'sentiment_very_satisfied', link: '/about' },
+        { title: 'Projects', icon: 'build', link: '/projects' },
+        { title: 'Hire Me?', icon: 'whatshot', link: '/hire' },
       ],
-      right: null,
     };
   },
 };

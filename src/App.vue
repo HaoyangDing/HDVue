@@ -2,7 +2,7 @@
   <div id="app">
     <AppFrame></AppFrame>
     <v-content>
-      <HomePage></HomePage>
+      <router-view></router-view>
     </v-content>
   </div>
 </template>

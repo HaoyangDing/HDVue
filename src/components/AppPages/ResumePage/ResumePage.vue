@@ -3,7 +3,7 @@
 </template>
 
 
-<script src="./AboutPage.ts">
+<script src="./ResumePage.ts">
 </script>
 
 <style>
