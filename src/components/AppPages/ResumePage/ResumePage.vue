@@ -1,5 +1,5 @@
 <template>
-  <h1>This will be the ABOUT page??</h1>
+  <h1>This will be the RESUME OR CONTACT page??</h1>
 </template>
 
 

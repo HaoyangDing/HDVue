@@ -5,11 +5,11 @@ export default {
     return {
       drawer: null,
       items: [
-        { title: 'Home', icon: 'home', link: '/' },
         { title: 'About', icon: 'sentiment_very_satisfied', link: '/about' },
         { title: 'Projects', icon: 'build', link: '/projects' },
         { title: 'Hire Me?', icon: 'whatshot', link: '/hire' },
       ],
+      thumbnail: require('@/assets/me-thumb.jpg'),
     };
   },
 };

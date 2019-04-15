@@ -6,11 +6,11 @@
       </v-layout>
     </v-content>
 
-    <v-navigation-drawer app v-model="drawer" absolute fixed dark width="200">
+    <v-navigation-drawer app v-model="drawer" absolute fixed dark width="250">
       <v-list>
-        <v-list-tile avatar tag="div">
+        <v-list-tile avatar tag="div" to="/" >
           <v-list-tile-avatar>
-            <img src="@/assets/me-thumb.jpeg">
+            <v-img :src="thumbnail"></v-img>
           </v-list-tile-avatar>
 
           <v-list-tile-content>
@@ -30,6 +30,12 @@
           <v-list-tile-content>
             <v-list-tile-title>{{ item.title }}</v-list-tile-title>
           </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+
+      <v-list >
+        <v-list-tile>
+
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
